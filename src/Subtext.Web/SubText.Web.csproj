@@ -949,6 +949,7 @@
     <None Include="App_Data\Packages\RedBook.1.0.nupkg" />
     <None Include="App_Data\Packages\WPSkin.1.0.nupkg" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\SubText.pubxml" />
     <None Include="_bin_deployableAssemblies\Microsoft.Web.Infrastructure.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.WebPages.Razor.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.WebPages.dll" />

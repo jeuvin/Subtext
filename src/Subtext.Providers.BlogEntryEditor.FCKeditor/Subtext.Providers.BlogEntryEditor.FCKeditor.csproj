@@ -167,9 +167,8 @@
       <Name>System.XML</Name>
     </Reference>
     <ProjectReference Include="..\Subtext.Extensibility\Subtext.Extensibility.csproj">
+      <Project>{13018f20-f796-4ffe-9290-83d0e661c0a1}</Project>
       <Name>Subtext.Extensibility</Name>
-      <Project>{13018F20-F796-4FFE-9290-83D0E661C0A1}</Project>
-      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
     </ProjectReference>
     <ProjectReference Include="..\Subtext.Framework\Subtext.Framework.csproj">
       <Name>Subtext.Framework</Name>
