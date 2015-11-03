@@ -137,6 +137,10 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Subtext.Web\SubText.Web.csproj">
+      <Project>{8c11b428-9c4a-46c3-b7f0-48215276bfa5}</Project>
+      <Name>SubText.Web</Name>
+    </ProjectReference>
     <Reference Include="BlogML, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\blogml.2.2.0\lib\BlogML.dll</HintPath>
     </Reference>
@@ -242,10 +246,6 @@
     <ProjectReference Include="..\Subtext.Providers.BlogEntryEditor.FCKeditor\Subtext.Providers.BlogEntryEditor.FCKeditor.csproj">
       <Project>{C219C5FF-D4EC-4838-BACF-E3C2C6E69514}</Project>
       <Name>Subtext.Providers.BlogEntryEditor.FCKeditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Subtext.Web\Subtext.Web.csproj">
-      <Project>{8C11B428-9C4A-46C3-B7F0-48215276BFA5}</Project>
-      <Name>Subtext.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
